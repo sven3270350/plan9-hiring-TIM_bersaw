@@ -1,0 +1,27 @@
+{
+  "name": "hiring",
+  "version": "0.0.1",
+  "description": "Jobs descriptions and tests",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "node --test",
+    "test:dev": "node --test --watch ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/plan9-tech/hiring.git"
+  },
+  "keywords": [
+    "nodejs",
+    "jobs"
+  ],
+  "author": "Plan9",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/plan9-tech/hiring/issues"
+  },
+  "homepage": "https://github.com/plan9-tech/hiring#readme",
+  "dependencies": {
+    "@types/node": "^20.4.9"
+  }
+}
