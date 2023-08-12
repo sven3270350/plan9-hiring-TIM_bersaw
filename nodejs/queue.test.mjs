@@ -1,14 +1,14 @@
 /**
  * queue test suite
  * @task implement queue.mjs and tests as described
- * @level junior++, middle--
+ * @level junior
  * @estTime 1h-2h
  * @author https://plan9.tech
  */
 import { test } from "node:test";
-import { suite } from "./lib.mjs";
+import { suite } from "../lib.mjs";
 import { queue } from "./queue.mjs";
-import { getRandomInt } from "./lib.mjs";
+import { getRandomInt } from "../lib.mjs";
 //
 const stack = [
 	() => {

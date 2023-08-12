@@ -7,7 +7,7 @@
  */
 import { it, test, todo, skip } from "node:test";
 import assert from "node:assert";
-import { sute } from "./lib.mjs";
+import { sute } from "../lib.mjs";
 import { compare } from "./compare.mjs";
 //
 let _id = 0;
