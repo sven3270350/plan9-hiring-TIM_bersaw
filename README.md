@@ -24,6 +24,8 @@ Jobs descriptions and tests
 
 -   Fork this repo. With fork name plan9-hiring-${telegramNickname}.
 -   Implement as many tests from .test.js files as you can.
+-   Follow the code style from this repo.
+-   Use conventional commits.
 -   Comment your code.
 -   Commit and push it to the forked repo.
 -   Send the link.
