@@ -1,18 +1,14 @@
 /**
  * compare test suite
- *
  * @task implement compare.mjs and tests as described
  * @level junior++, middle--
- * @estTime 2-4h
- *
+ * @estTime 2h-4h
  * @author https://plan9.tech
  */
-import { it, test, describe, todo, skip } from "node:test";
+import { it, test, todo, skip } from "node:test";
 import assert from "node:assert";
+import { sute } from "./lib.mjs";
 import { compare } from "./compare.mjs";
-//
-const log = console.log;
-const suite = describe;
 //
 let _id = 0;
 const _doc = (data = {}) => {
@@ -41,7 +37,7 @@ const queryByNestedConditions = {
 suite("compare", (s) => {
 	test("compare(docs[0], queryById) === true", (t) => {});
 	test("compare(docs[1], queryStrictByAgeInNestedObject) === true", () => {});
-	test("compare(docs[0], queryBy$gte) === false", () => {});
+	test("compare(docs[0], queryBy$gte) === true", () => {});
 	test("compare(docs[0], queryByNestedConditions) === false", () => {});
 	test("compare(docs[1], queryByNestedConditions) === true", () => {});
 	test("compare(docs[2], queryByNestedConditions) === true", () => {});

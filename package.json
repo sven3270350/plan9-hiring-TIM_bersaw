@@ -1,6 +1,6 @@
 {
   "name": "hiring",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Jobs descriptions and tests",
   "main": "index.mjs",
   "scripts": {
