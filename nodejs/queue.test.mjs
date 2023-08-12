@@ -15,21 +15,21 @@ const stack = [
 		return new Promise((resolve) => {
 			setTimeout(() => {
 				resolve(1);
-			}, getRandomInt(0, 10));
+			}, getRandomInt(0, 10) * 1000);
 		});
 	},
 	() => {
 		return new Promise((resolve) => {
 			setTimeout(() => {
 				resolve(2);
-			}, getRandomInt(0, 10));
+			}, getRandomInt(0, 10) * 1000);
 		});
 	},
 	() => {
 		return new Promise((resolve) => {
 			setTimeout(() => {
 				resolve(3);
-			}, getRandomInt(0, 10));
+			}, getRandomInt(0, 10) * 1000);
 		});
 	},
 ];
