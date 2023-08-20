@@ -24,7 +24,10 @@ Jobs descriptions and tests
 ## Howto
 
 -   Fork this repo. With fork name plan9-hiring-${telegramNickname}.
--   Implement as many tests from .test.js files as you can.
+-   Use "npm test:dev" command to run tests in dev mode.
+-   Implement as many tests from .test.mjs files as you can.
+-   Do not modify any .lib.mjs files.
+-   For each .lib.mjs or {featureName}.mjs (ex: aggregateDocs.mjs) create d.ts file with proper types.
 -   Follow the code style from this repo.
 -   Use conventional commits.
 -   Comment your code.
