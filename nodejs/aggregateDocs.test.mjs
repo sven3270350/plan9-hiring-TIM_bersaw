@@ -1,8 +1,12 @@
 /**
- * aggregateBillionDocs test suite
+ * aggregateDocs test suite
  * @task implement billion.mjs and tests as described
  * - Use fake server wich will return object with name to send 100 000 requests
- * - Agregate responses to by lastName + fullName
+ * - Agregate and count responses by lastName + fullName. Ex:
+ *   {
+ * 		"john": 1000,
+ * 		"helen": 2000
+ *   }
  * - Save agregates to the .aggregates.json file - create debounce function to ensure that aggregates saves not more often than 5 seconds
  * - Server will randomly return error
  * - Proprly handle error and ensure that exactly 100 000 success requests being handled
