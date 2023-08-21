@@ -1,6 +1,6 @@
 /**
  * queue test suite
- * @task implement queue.mjs and tests as described
+ * @task implement queue.mjs and tests as described. do not use Promise.all
  * @level junior
  * @estTime 1h-2h
  * @author https://plan9.tech
