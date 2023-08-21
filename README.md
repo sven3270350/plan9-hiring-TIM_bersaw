@@ -2,15 +2,16 @@
 
 Jobs descriptions and tests
 
-## Prerquirements
+## Requirements
 
--   We are looking for a junior or intermediate nodejs developer.
--   You need to have the latest nodejs installed.
+-   We are looking for a junior or intermediate Node.js developer.
+-   You need to have the latest Node.js installed.
 -   You need to have the latest deno/bun installed.
 -   One file is one task.
--   Every tasks pessimistic estimation is 4h, optimistic is about 1h.
+-   Every tasks’ pessimistic estimation is 4h, optimistic is about 1h.
 -   Use VsCode to implement this test.
 -   The more tasks you complete more chance you have.
+
 
 ## What we are testing
 
