@@ -26,11 +26,23 @@ import {
 } from "./aggregateDocs.lib.mjs";
 import { log } from "../lib.mjs";
 import { aggregateDocs } from "./aggregateDocs.mjs";
+import { sendRequests, benchmark } from "./aggregateDocs.mjs";
 //
 const server = http.createServer(listener);
 describe("http server test", () => {
 	test("this should be tested", async () => {
 		const res = await fetch("http://localhost:3000");
 		aggregateDocs(await fetch.json());
+	});
+});
+
+describe("Billion Requests", () => {
+	it("should handle 100,000 success requests", async () => {
+		await sendRequests();
+	});
+
+	it("should benchmark the performance of the procedure", async () => {
+		await benchmark();
+		// Assert the benchmark results meet the expected performance requirements
 	});
 });
